@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dannyuribe.github.io/portafolio/sitemap.xml

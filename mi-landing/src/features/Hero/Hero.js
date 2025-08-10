@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const Hero = () => {
+    return (_jsx("section", { id: "hero", className: "min-h-screen flex items-center justify-center bg-white px-6 md:px-12", children: _jsxs("div", { className: "max-w-4xl text-center", children: [_jsxs("h1", { className: "text-4xl md:text-6xl font-bold leading-tight mb-6", children: ["Si tu negocio lo necesita,", _jsx("span", { className: "text-blue-600", children: " nosotros lo programamos" })] }), _jsx("p", { className: "text-lg md:text-xl text-gray-600 mb-8", children: "Creamos sistemas, plataformas y apps 100% a medida: desde reservas y ventas online hasta automatizaci\u00F3n, pagos e integraciones." }), _jsx("a", { href: "#contact", className: "inline-block px-6 py-3 bg-blue-600 text-white rounded-full text-lg hover:bg-blue-700 transition", children: "Hablemos de tu proyecto" }), _jsx("p", { className: "text-sm text-gray-500 mt-4", children: "Desarrollado por Danny Uribe \u2013 Ingeniero en Sistemas" })] }) }));
+};
+export default Hero;

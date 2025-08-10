@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const About = () => {
+    return (_jsx("section", { className: "py-20 bg-gray-50 px-6 md:px-12", id: "about", children: _jsxs("div", { className: "max-w-4xl mx-auto text-center", children: [_jsx("h2", { className: "text-3xl md:text-4xl font-bold mb-6", children: "Sobre m\u00ED" }), _jsxs("p", { className: "text-gray-700 text-lg leading-relaxed", children: ["Soy un ", _jsx("strong", { children: "Ingeniero en Sistemas" }), ", con experiencia en el desarrollo de aplicaciones web y m\u00F3viles. Me apasiona crear soluciones tecnol\u00F3gicas que mejoren la vida de las personas y ayuden a crecer a los negocios."] }), _jsxs("p", { className: "mt-4 text-gray-700 text-lg leading-relaxed", children: ["He trabajado con tecnolog\u00EDas como ", _jsx("strong", { children: "React" }), ",", " ", _jsx("strong", { children: "TailwindCSS" }), ", ", _jsx("strong", { children: ".NET" }), " y", " ", _jsx("strong", { children: "Kotlin" }), ". Siempre estoy aprendiendo y buscando nuevos desaf\u00EDos."] })] }) }));
+};
+export default About;
