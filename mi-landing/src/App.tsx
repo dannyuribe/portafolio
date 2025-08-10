@@ -5,10 +5,10 @@ import { Contact } from './features/landing/components/Contact';
 import { EducationExperience } from './features/landing/components/EducationExperience';
 import { Footer } from './features/landing/components/Footer';
 import { Navbar } from './features/landing/components/Navbar';
-import { Projects } from './features/landing/components/Projects';
+//import { Projects } from './features/landing/components/Projects';
 import { Services } from './features/landing/components/Services';
 import { Skills } from './features/landing/components/Skills';
-import { Testimonials } from './features/landing/components/Testimonials';
+//import { Testimonials } from './features/landing/components/Testimonials';
 import { WorkProcess } from './features/landing/components/workProcess';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <About />
       <Services />
       <WorkProcess />
-      <Projects />
+      {/*<Projects />*/}
       <Skills />
       <EducationExperience />
       {/*<Testimonials />*/}
