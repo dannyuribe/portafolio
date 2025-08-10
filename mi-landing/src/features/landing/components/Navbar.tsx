@@ -13,7 +13,7 @@ const navLinks = [
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full bg-white border-b shadow-sm">
-      <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 py-2 flex items-center justify-between">
         <span className="text-xl font-bold tracking-tight">Danny Uribe</span>
 
         {/* Desktop nav */}
