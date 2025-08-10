@@ -8,7 +8,7 @@ export const WorkProcess = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-gray-50" id="workProcess">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-10">Nuestro Proceso de Trabajo</h2>
         <div className="grid md:grid-cols-3 gap-6">
