@@ -4,10 +4,14 @@ import { Menu } from "lucide-react"
 
 const navLinks = [
   { label: "Inicio", href: "#hero" },
-  { label: "Sobre mí", href: "#about" },
-  { label: "Proyectos", href: "#projects" },
+  { label: "Sobre mí", href: "#about" },  
+  { label: "Servicios", href: "#services"},
+  //{ label: "Proyectos", href: "#projects" },
+  { label: "Proceso de Trabajo", href: "#workProcess"},
   { label: "Habilidades", href: "#skills" },
+  { label: "Educación & Experiencia", href: "#experiencia" },
   { label: "Contacto", href: "#contact" },
+  
 ]
 
 export function Navbar() {
