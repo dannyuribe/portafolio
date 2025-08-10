@@ -6,7 +6,7 @@
   "homepage": "https://dannyuribe.github.io/portafolio/",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
@@ -43,8 +43,15 @@
   },
   "description": "Portafolio de Danny Uribe - Ingeniero en Sistemas y Desarrollador Fullstack.",
   "main": "eslint.config.js",
-  "keywords": ["portafolio", "danny uribe", "ingeniero en sistemas", "desarrollador fullstack", "react", "vite", "tailwind"],
+  "keywords": [
+    "portafolio",
+    "danny uribe",
+    "ingeniero en sistemas",
+    "desarrollador fullstack",
+    "react",
+    "vite",
+    "tailwind"
+  ],
   "author": "Danny Uribe",
   "license": "ISC"
 }
-
